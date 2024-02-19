@@ -1,0 +1,11 @@
+1)Man opens a manual for the command you;re trying to run. To scroll you can use arrow keys or pageup + pagedown. 
+2)ls -a does not ignore entries starting with "." , while ls -l outputs the command in a single line format. To close the manual press "Q".
+3)Hold alt + arrow keys
+4)Hold ctrl + E
+5)Hold ctrl + A
+6)Hold ctrl + W
+7)A terminal is a graphical interface that allows you to interact with the shell. The shell processes the commands and returns an output"
+8)Absolute path starts from the root directory all the way to the destination.
+9)Relative path starts from the current directory to the destination.
+10)A flag is an argument given to a command like (-a, -1S, -rf)
+11)-f ignores nonexistant files and arguments. While -r removes directories and their contents recursively.

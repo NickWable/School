@@ -1,0 +1,13 @@
+- What is the difference between var and let?
+Var can be reassigned and redeclared. Also var is outdated and should'nt be used unless working on an old project.
+let can only be reassigned, let also uses block scope unlike var. 
+
+- What is the difference between var and const?
+Var can be reassigned and redeclared. Whereas const cannot be reassigned or redeclared.
+Const uses block scope and var doesn't.
+
+- What is the difference between let and const?
+Neither can be redeclared, but let can be reassigned. Const is prefered over let.
+
+- What is hoisting?
+When the code is compiled, the declarations using var are ran before the initialization.

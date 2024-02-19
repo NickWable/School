@@ -1,0 +1,24 @@
+body {
+    background-color:#d0cfcf;
+    font-size: 16px;
+}
+
+p {
+font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+section {
+    font-size: 1.5em;
+}
+
+h1 {
+    filter: drop-shadow(5px 5px 2px #ff0000);
+}

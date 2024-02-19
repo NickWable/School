@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/59d7aa7f-55b5-4600-a6fd-13f16a50da45/dfwdjni-e5bb96a1-61bd-482e-a353-30433f71d938.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU5ZDdhYTdmLTU1YjUtNDYwMC1hNmZkLTEzZjE2YTUwZGE0NVwvZGZ3ZGpuaS1lNWJiOTZhMS02MWJkLTQ4MmUtYTM1My0zMDQzM2Y3MWQ5MzgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FKoHUynUUrMCXwN4mi0yivOsi7zNEJghXlMVkGq9YW4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(87, 207, 113);
+    margin: 0px;
+    
+}
+
+div {
+    background-color: hsla(0,0%,0%,0.50);
+    height: 1102px;
+    padding: 5px;
+}
+
+h1 {
+    border-bottom: 4px solid hsl(307, 100%, 33%);
+    padding: 7px;
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px hsl(307, 100%, 53%);
+    font-family:"Courier New", Monaco, monospace;
+    background-color: black;
+}
+
+h2 {
+    text-indent: 2em;
+    text-decoration: underline hsl(307, 100%, 33%);
+}
+
+h3{
+    text-indent: 1.5em;
+    text-decoration: underline hsl(307, 100%, 33%);
+}
+
+.link-box {
+    border: 3px solid black;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.link-box:hover {
+    font-size: 18px;
+    transition: font-size 0.5s ease;
+  }

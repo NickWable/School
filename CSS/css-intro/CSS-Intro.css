@@ -1,0 +1,73 @@
+
+body {
+    background: rgb(129,249,254);
+    background: linear-gradient(90deg, hsl(182,98%,75%,1) 0%, hsl(313,97%,30%,1) 49%, hsl(0, 100%, 69%,1) 100%);
+    font-size: 20px;
+    
+    }
+
+h1 {
+    font-family:"Courier New", Monaco, monospace;
+    text-align: center;
+    background-color:hsl(182,98%,75%,1);
+    font-size: 60px;
+    text-shadow: 3px 3px 5px #3d3d3a;
+    font-weight: 500;
+    }
+h2 {
+    font-family: Consolas, Andale Mono, monospace;
+    background-color:hsl(182,98%,75%,1);
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px #3d3d3a;
+    font-weight: 200;
+}
+ul{
+    background-color:hsl(246,100%,75%,0.5) ;
+    }
+p{
+    background-color: hsl(313,97%,30%,0.75);
+    text-indent: 2em;
+}
+
+/* 
+CSS- Cascading Style Sheets
+With CS you can edit fonts, colors, web/print/mobile layouts, animations, and much more
+To include CSS to your webpage you can use a <style> element or an external style sheet using a <link> element in the head of your html doc. The second option is most commonly used.
+To write CSS you need a Selector (what you want to style, ie body, h1), then you need a declaration {} (everything in the curly braces), A property left of the colon(:), and a Value right of the colon followed by a semi colon(;) 
+
+Types of color in CSS are Named colors, RGB, RGBA (alpha channel/transparency), Hex colors, and HSL (Hue, saturation, and lightness) 
+
+Text Properties 
+font size- how big should the font be?
+font family- what type of font?
+text align- left? right? center?
+line height- how much space between lines?
+
+ What is a CSS selector? Please give an example.
+A CSS selector is a tag like "body" or "h1" that allows you to pick which part of the HTML you want to style. 
+
+- What is a CSS Declaration? Please give an example.
+A CSS declaration is the curly bracket {} and it signifies where the CSS code starts and stops. Similar to HTML using less than and greater than <>
+
+- What is a CSS Property? Please give an example.
+A CSS property is the command you use left of the colon (background-color, font-size, text-allign, ect )
+
+- What is a CSS Value? Please give an example.
+A CSS Value is the varible you enter right of the colon. The values for the color property would be RGB, Hex, or HSL
+
+- What are the three ways to include CSS?
+There are thousands of ways to include CSS for example you can change every varible of the font, you can add color to every part of your html page, CSS allows you to be creative and make your website interesting.
+
+- What is the difference bettwen ***rgb*** and ***rgba***?
+RGB stands for Red,Green, and Blue. The "A" in RGBA stands for Alpha and it is the transparancy value of the displayed color.
+
+- What is an ***em***?
+An em is a multiplicative font size relative to the parent, it also stays porportinate to the screen size.
+
+- What are the differences between ***em*** and ***rem***?
+A rem multiplies the font size based on the root value. For example, if the body's font size is set to 20px and you apply 2rem to the "h1" then the font size will be 40px.
+
+- How do you include a google font?
+To include a google font you need to add a "Link" tag to the "head" of the HTML. 
+*/

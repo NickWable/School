@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and tables</title>
+    <p>Inside of header - let's add a navbar with some essential links
+        <br>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </p>
+
+    <hr>
+</head>
+<body>
+    <h1>Here is the main section of our page - it consits if new articles</h1>
+    <h2>Article 1 - 1995 was a pretty crazy year for programming languaghes!</h2>
+        <table>
+            <caption>Don't believe me? Just check this table out</caption>
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Designed By</th>
+                        <th>First Appeared</th>
+                    </tr>
+                </thead>
+            <tbody>
+                    <tr>
+                        <td>C++</td>
+                        <td>Bjarne Stroustrup</td>
+                        <td>1983</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Guido van Rossum</td>
+                        <td>1991</td> 
+                    </tr>
+                    <tr>
+                        <td>Ruby</td>
+                        <td>Yukihiro Matsumoto ("Matz")</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Brendan Eich</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>James Gosling</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td>Rasmus Lerdorf</td>
+                        <td>1995</td>
+                    </tr>
+            </tbody>
+        </table>
+    <h2>Article 2 - Coming soon...</h2>
+    <h2>Contact us!</h2>
+    <h2>General Information</h2>
+        <form>
+            First Name <input type="Firstname" placeholder="First" name="Firstname">
+            <br>
+            Last Name <input type="Lastname" name="Lastname" placeholder="Last">
+            <br>
+            Email <input type="email" placeholder="Email" name="email" id="email">
+            <br>
+            Date of birth <input type="date" name="birthday">
+        </form>
+    <h2>Essential Questions</h2>
+    <form>
+        <p>What kind of work do you need?</p>
+        <input type="radio" name="work" value="Programming"> Programming <br>
+        <input type="radio" name="work" value="Design"> Design <br>
+        <input type="radio" name="work" value="Singing"> Singing <br>
+        <input type="radio" name="work" value="Comedy"> Comedy <br>
+        <br>
+        <p>How interested are you in our design skills?</p>
+        <input type="radio" name="Design skills" value="VL"> Very Low <br>
+        <input type="radio" name="Design skills" value="L"> Low <br>
+        <input type="radio" name="Design skills" value="M"> Medium <br>
+        <input type="radio" name="Design skills" value="H"> High <br>
+        <input type="radio" name="Design skills" value="VH"> Very High <br>
+        <button type="submit">Submit me!</button>
+        <!-- <input type="submit" value="GO!"> -->
+      </form>
+      <p>Here is our footer - let's make sure we copyright © this!</p>
+</body>
+</html>
