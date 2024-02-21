@@ -1,0 +1,52 @@
+## **Part One: Solidify Terminology**
+
+In your own terms, define the following terms:
+
+- What is HTTP?
+    HTTP means HyperText Transfer Protocol and it is the foundation of data communication for the world wide web. 
+
+- What is a URL?
+    URL stands for Univeral Resource Locator, it is a refrence to a web resource that specifies its location on a computer network.
+
+- What is DNS?
+    Domain Name System or DNS is a naming system for all computers or devices connected to the internet or private network. 
+
+- What is a query string?
+    A query string is a part of a URL that contains data to be passed to web applications. Key value pair key starts with "?" and value starts with "&"
+
+- What are two HTTP verbs and how are they different?
+    Two HTTP verbs or methods are GET and POST. GET is the method used to retrieve data from a web server, while POST is the method used to send data to a web server.
+
+- What is an HTTP request?
+    An HTTP request is a message that a client sends to a server to request a specific action on a web resource.
+
+- What is an HTTP response?
+    An HTTP response is a message that a server sends to a client in response to an HTTP request.
+
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    HTTP headers carry additional information about an HTTP request or response. Here are a couple examples.
+        Request Headers:
+            Accept: Specifies the media types that are acceptable for the response, like Accept: text/html.
+        Response Header:
+            Content-Type: The media type of the resource in the response body, like Content-Type: text/html.
+
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+    The browser initiates a DNS lookup to translate the domain name into an IP address. 
+    The browser sends an HTTP GET request to the server located at the IP address obtained from the DNS lookup. 
+    The server processes the request and responds to the browser's request with an HTTP response. 
+    The browser receives the HTTP response and processes it. If a page was returned, the browser will parse the HTML, CSS, and JavaScript content of the page.
+
+
+## **Part Two: Practice Tools**
+
+1. Using ***curl***, make a ***GET*** request to the *icanhazdadjoke.com* API to find all jokes involving the word “pirate”
+2. Use ***dig*** to find what the IP address is for *icanhazdadjoke.com*
+3. Make a simple web page and serve it using ***python3 -m http.server***. Visit the page in a browser.
+
+## **Part Three: Explore Dev Tools**
+
+Build a very simple HTML form that uses the GET method (it can use the same page URL for the action) when the form is submitted.
+
+Add a field or two to the form and, after submitting it, explore in Chrome Developer tools how you can view the request and response headers.
+
+Edit the page to change the form type to POST, refresh in the browser and re-submit. Do you still see the field in the query string? Explore in Chrome how you can view the request and response headers, as well as the form data.

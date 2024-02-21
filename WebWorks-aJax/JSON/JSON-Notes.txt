@@ -1,0 +1,14 @@
+JSON stands for JavaScript Object Notation 
+looks similar to JS objects but all the keys must be "double-quoted"
+{
+    "person": {
+        "name": "Mike",
+        "favoriteDino": "Megalodon",
+        "server": "2129",
+        "KDR": 69,
+        "Allies": ["Good Comms", "No Limit", "Chem B", "FTG", "Lava Chair", "LOTD", "Carebears"]
+        "Dreams": null
+    }
+}
+
+https://jsonviewer.stack.hu/
