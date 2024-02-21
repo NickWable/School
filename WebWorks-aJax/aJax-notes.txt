@@ -1,0 +1,12 @@
+AJAX means asynchronous javascript and xml (used to be mostly XML but now we use JSON)
+Can load content from and api and get data back without refreshing the page. 
+
+Example: AJAX web request
+    Made from JS in browser
+    JS makes request(GET,POST, etc)
+    You recieve response
+    Do whatever with the result
+
+AJAX is not a specific technology  or library, its a way of structuring webpages and making requests
+
+AJAX with Axios
