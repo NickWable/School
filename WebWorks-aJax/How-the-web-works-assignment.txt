@@ -43,6 +43,8 @@ In your own terms, define the following terms:
 2. Use ***dig*** to find what the IP address is for *icanhazdadjoke.com*
 3. Make a simple web page and serve it using ***python3 -m http.server***. Visit the page in a browser.
 
+IM ON PC!!!!
+
 ## **Part Three: Explore Dev Tools**
 
 Build a very simple HTML form that uses the GET method (it can use the same page URL for the action) when the form is submitted.
